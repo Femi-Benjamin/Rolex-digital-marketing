@@ -3,7 +3,7 @@ import React from "react";
 const Media = () => {
   return (
     <div className="h-[795px] bg-white">
-      <div className="md:px-[90px] md:py-[84px]">
+      <div className="md:px-[109px] md:py-[84px]">
         <div className="flex gap-20">
           {/* CARD */}
           <div className="w-[295px] h-[260px] bg-gradient-to-r from-[#8fe3cfb3] to-[#002b5bb3] rounded-[10px]">
@@ -124,7 +124,7 @@ const Media = () => {
 
           <div>
             <h1 className="font-lato not-italic font-[500px] text-[25px] leading-[30px] text-[#002B5B] uppercase mb-[18px]">What We Do</h1>
-            <h1 className="font-rubik not-italic font-[300px] text-[54px] leading-[64px] text-[#256D85] mb-[34px]">your Business <span className="font-rubik not-italic font-bold text-[54px] leading-[64px] text-black" >with <br /> our best solution</span></h1>
+            <h1 className="font-rubik not-italic font-light text-[54px] leading-[64px] text-[#256D85] mb-[34px]">your Business <span className="font-rubik not-italic font-bold text-[54px] leading-[64px] text-black" >with <br /> our best solution</span></h1>
             <div className="flex w-[196px] h-[48px] bg-[#8FE3CF] rounded-[20px] items-center justify-center pr-7">
             <img className="p-5" src="/Vector (4).png" alt="" />
             <button>Explore all</button>

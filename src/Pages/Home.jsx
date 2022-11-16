@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import Media from "../Components/Media";
+import Forecast from "../Components/Forecast";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
                 </span>
                 on the <br /> goal.
               </h1>
-              <p className="font-rubik not-italic font-[400px] text-[18px] leading-[22px] mb-[38px]">
+              <p className="font-rubik not-italic font-light text-[18px] leading-[22px] mb-[38px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit
                 ut aliquam, purus sit amet luctus venenatis, <br /> lectus magna
                 fringilla urna, porttitor
@@ -27,8 +28,8 @@ const Home = () => {
                 <div className="w-[30px] h-[30px] bg-[#8FE3CF] rounded-3xl mr-10 ">
                   <img className="pt-3 pl-2" src="/Vector.png" alt="" />
                 </div>
-                <h1 className="font-[400px] leading-[27px] text-[18px] font-rubik not-italic mb-[17px]">
-                  an awarded digital marketing expert
+                <h1 className="font-light leading-[27px] text-[18px] font-rubik not-italic mb-[17px]">
+                  An awarded digital marketing expert
                 </h1>
               </div>
 
@@ -37,7 +38,7 @@ const Home = () => {
                   <img className="pt-3 pl-2" src="/Vector.png" alt="" />
                 </div>
                 <div className="flex">
-                  <h1 className="font-[400px] leading-[27px] text-[18px] font-rubik not-italic">
+                  <h1 className="font-light leading-[27px] text-[18px] font-rubik not-italic">
                     Trusted by
                   </h1>
                   <div className="flex items-center ml-[15px] gap-[14.05px]">
@@ -59,7 +60,7 @@ const Home = () => {
                 <div className="w-[47px] h-[46px] bg-[#8FE3CF] rounded-[30px] justify-center mr-[11px]">
                   <img className="p-4 pl-5" src="/Vector (3).png" alt="" />
                 </div>
-                <p className="font-rubik not-italic font-[400px] text-[12px] leading-[14px]">
+                <p className="font-rubik not-italic font-light text-[12px] leading-[14px]">
                   Check <br /> How it <br /> work
                 </p>
               </div>
@@ -89,6 +90,7 @@ const Home = () => {
         </div>
       </div>
       <Media />
+      <Forecast/>
     </div>
   );
 };
